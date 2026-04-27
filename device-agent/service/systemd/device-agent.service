@@ -1,0 +1,14 @@
+[Unit]
+Description=Device Agent - Asset Intelligence Platform
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/device-agent
+ExecStart=/opt/device-agent/device-agent -config /opt/device-agent/config.yaml
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

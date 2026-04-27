@@ -1,0 +1,12 @@
+api_base_url: "http://localhost:5000/api"
+agent_id: ""
+agent_token: ""
+sync_interval_seconds: 120
+retry_max_attempts: 5
+retry_base_delay_seconds: 10
+performance_interval_seconds: 300
+software_scan_interval_hours: 24
+system_info_interval_hours: 24
+compliance_check_interval_hours: 12
+db_path: "agent.db"
+log_path: "agent.log"
